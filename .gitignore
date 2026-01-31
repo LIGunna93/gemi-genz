@@ -37,6 +37,7 @@ Thumbs.db
 
 # --- User Specific ---
 blogs/
+renders/
 
 # --- EXCLUSIONS ---
 # We want to track the example file even though it looks like an env file
