@@ -37,7 +37,7 @@ This project utilizes a **Service-Oriented Architecture** to decouple AI logic f
 git clone [https://github.com/LIGunna93/gemi-gen.git] gemi-gemz
 cd YOUR_REPO_NAME
 npm install
-
+```
 ### 3. Choose your destiny!
 
 ## Clients-
