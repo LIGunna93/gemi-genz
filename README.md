@@ -46,7 +46,7 @@ npm install
 **Type:** 
 ```bash
 npm start
-
+```
 ***Follow the server start instructions to find the address to route to access the app***
 
 ## Devs-
