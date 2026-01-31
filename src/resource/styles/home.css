@@ -1,0 +1,94 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #01678a, #378039);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: large;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to bottom, #012d3b93, #012d3b, #2661289d);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #006f8e;
+}
+
+.navigate {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.navigate li {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navigate li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigate li a:hover {
+    text-decoration: underline;
+}
+
+.xplorer-logo {
+    height: 60px;
+    width: auto;
+}
+
+.xplorclass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #012d3b, #012d3b, #378039);
+}
+
+.xplorclass h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    background-color: #012d3b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
