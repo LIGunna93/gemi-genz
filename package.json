@@ -1,0 +1,19 @@
+{
+  "name": "gemi-genz",
+  "version": "1.0.0",
+  "description": "![CI Status](https://github.com/LIGunna93/gemi-genz/actions/workflows/ci.yml/badge.svg)\r ![Node Version](https://img.shields.io/badge/node-20.x-green)\r ![License](https://img.shields.io/badge/license-MIT-blue)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dev_LI",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.39.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
