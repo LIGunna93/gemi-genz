@@ -1,4 +1,4 @@
-# 🤖 Gemini Multi-Service Orchestrator
+#  Gemini Multi-Service Orchestrator
 
 ![CI Status](https://github.com/LIGunna93/gemi-genz/actions/workflows/ci.yml/badge.svg)
 ![Node Version](https://img.shields.io/badge/node-20.x-green)
@@ -18,7 +18,8 @@ This project utilizes a **Service-Oriented Architecture** to decouple AI logic f
 
 ## Tech Stack
 
-- ***Backend:*** Node.js (v20+) w/ Express + React
+- ***Front-End*** React + Bootstrap
+- ***Backend:*** Node.js (v20+) w/ Express
 - ***AI SDK:*** `@google/genai` (2026 Unified Version)
 - ***CI/CD:*** GitHub Actions (Environment secret validation & Unit testing)
 - ***Security:*** Dotenv-enc & Branch Protection Rules
@@ -33,6 +34,21 @@ This project utilizes a **Service-Oriented Architecture** to decouple AI logic f
 
 ### 2. Installation
 ```bash
-git clone [https://github.com/LIGunna93/gemi-gemz.git] gemi-gemz
+git clone [https://github.com/LIGunna93/gemi-gen.git] gemi-gemz
 cd YOUR_REPO_NAME
 npm install
+
+### 3. Choose your destiny!
+
+## Clients-
+
+***Navigate your active terminal directory to the root of the gemi-genz (or YOUR_REPO_NAME) clone project folder.***
+**Type:** 
+```bash
+npm start
+
+***Follow the server start instructions to find the address to route to access the app***
+
+## Devs-
+
+***Navigate to the respective source engine files and let your terminal talk the talk 🤖 ***
