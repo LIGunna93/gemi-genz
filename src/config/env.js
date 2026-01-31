@@ -1,6 +1,6 @@
 import 'dotenv/config';
 
-const requiredEnvVars = ['GEMINI_API_KEY'];
+const requiredEnvVars = ['GEMINI_API_KEY', 'GEMINI_MODEL_NAME', 'GEMINI_ImgMODEL_NAME'];
 
 for (const envVar of requiredEnvVars) {
   if (!process.env[envVar]) {
@@ -11,6 +11,7 @@ for (const envVar of requiredEnvVars) {
 
 export const config = {
   apiKey: process.env.GEMINI_API_KEY,
-  model: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
+  model: process.env.GEMINI_CMODEL_NAME,
+  imgmodel: process.env.GEMINI_ImgMODEL_NAME,
   port: process.env.PORT || 6060,
 };

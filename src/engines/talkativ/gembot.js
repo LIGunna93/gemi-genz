@@ -1,16 +1,16 @@
-import 'dotenv/config';
-import { GoogleGenAI } from '@google/genai';
+import '../../config/env.js';
+import { GoogleGenAI } from "@google/genai";
 
-// Centralize the setup
-const genAI = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const model = genAI.getGenerativeModel({ model: process.env.GEMINI_MODEL_NAME || "gemini-2.5-flash" });
+// The client gets the API key from the environment variable `GEMINI_API_KEY`.
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-export const getProfileImprovementAdvice = async (userPrompt) => {
-  try {
-    const result = await model.generateContent(userPrompt);
-    return result.response.text();
-  } catch (error) {
-    console.error("Gemini Service Error:", error);
-    throw new Error("Failed to fetch AI advice");
-  }
-};
+async function main() {
+  const response = await ai.models.generateContent({
+    model: process.env.GEMINI_CMODEL_NAME || "gemini-3-flash-preview",
+    contents: "How many stars are there in the Milky Way galaxy? Explain in a concise, brief paragraph.",
+  });
+  console.log(response.text);
+  return response.text;
+}
+
+main().catch(console.error);
