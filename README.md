@@ -18,7 +18,7 @@ This project utilizes a **Service-Oriented Architecture** to decouple AI logic f
 
 ## Tech Stack
 
-- ***Front-End*** React + Bootstrap
+- ***Front-End:*** React + Bootstrap
 - ***Backend:*** Node.js (v20+) w/ Express
 - ***AI SDK:*** `@google/genai` (2026 Unified Version)
 - ***CI/CD:*** GitHub Actions (Environment secret validation & Unit testing)
