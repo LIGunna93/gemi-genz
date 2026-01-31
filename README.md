@@ -27,17 +27,26 @@ This project utilizes a **Service-Oriented Architecture** to decouple AI logic f
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-- A basic understanding of software packaging, environment configuration and server deployment [ -- or just vibez]
+- A basic understanding of software packaging, environment configuration and server deployment [ -- or straight up vibez ]
 - A Google AI Studio API Key ([Get it here](https://ai.google.dev/))
 - Node.js installed locally [ +20v ]
 - Prompt ready!
 
 ### 2. Installation
+Start by cloning the project to your remote directory using -
 ```bash
-git clone [https://github.com/LIGunna93/gemi-gen.git] gemi-gemz
-cd YOUR_REPO_NAME
+git clone https://github.com/LIGunna93/gemi-genz.git your-repo-name
+```
+***Inclusion of 'your-repo-name' completely optional, if not defined defaults to name the standard repo's name, gemi-genz***
+{ your-repo-name ?
+```bash
+cd YOUR_REPO_NAME  :  cd gemi-genz
+```
+Once in the root directory, re-initialize the packaging dependencies for the local environment. Hit
+```bash
 npm install
 ```
+
 ### 3. Choose your destiny!
 
 ## Clients-
@@ -51,4 +60,4 @@ npm start
 
 ## Devs-
 
-***Navigate to the respective source engine files and let your terminal talk the talk 🤖***
+***Navigate to the respective source engine files and node it all out in your choice TUI 🤖***
