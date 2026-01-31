@@ -51,4 +51,4 @@ npm start
 
 ## Devs-
 
-***Navigate to the respective source engine files and let your terminal talk the talk 🤖 ***
+***Navigate to the respective source engine files and let your terminal talk the talk 🤖***
