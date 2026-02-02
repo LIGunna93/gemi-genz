@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 A professional Full-Stack orchestration layer for the **Gemini API** ecosystem.
-This project demonstrates how to coordinate multiple AI models (Flash, Pro, and Nano Banana) to handle basic - as well as complex, multimodal workflows with automated CI/CD safety nets.
+This project demonstrates how to coordinate multiple AI models (Flash, Pro, and Nano Banana) to handle basic, as well as complex, multimodal workflows with automated CI/CD safety nets.
 
 ## Architecture Overview
 
@@ -18,7 +18,7 @@ This project utilizes a **Service-Oriented Architecture** to decouple AI logic f
 
 ## Tech Stack
 
-- ***Front-End:*** React + Bootstrap
+- ***Front-End:*** HTML5/CSS w/ Vanilla-esque JS
 - ***Backend:*** Node.js (v20+) w/ Express
 - ***AI SDK:*** `@google/genai` (2026 Unified Version)
 - ***CI/CD:*** GitHub Actions (Environment secret validation & Unit testing)
@@ -27,20 +27,24 @@ This project utilizes a **Service-Oriented Architecture** to decouple AI logic f
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-- A basic understanding of software packaging, environment configuration and server deployment [ -- or straight up vibez ]
+- A basic understanding of software packaging, environment configuration, and server deployment [ -- or straight up vibez ]
 - A Google AI Studio API Key ([Get it here](https://ai.google.dev/))
 - Node.js installed locally [ +20v ]
 - Prompt ready!
 
 ### 2. Installation
+You can just open up your choice terminal and navigate to the parent directory to which you intend to clone/import the project folder.
+```bash
+C://cd abc/xyz/parent_folder
+```
 Start by cloning the project to your remote directory using -
 ```bash
 git clone https://github.com/LIGunna93/gemi-genz.git your-repo-name
 ```
-***Inclusion of 'your-repo-name' completely optional, if not defined defaults to name the standard repo's name, gemi-genz***
-{ your-repo-name ?
+***Inclusion of 'your-repo-name' optional; if not defined(empty), it defaults the project_folder/app name to the clone's repo name - gemi-genz***
+### { your-repo-name?
 ```bash
-cd YOUR_REPO_NAME  :  cd gemi-genz
+cd your-repo-name  :  cd gemi-genz
 ```
 Once in the root directory, re-initialize the packaging dependencies for the local environment. Hit
 ```bash
@@ -60,4 +64,8 @@ npm start
 
 ## Devs-
 
-***Navigate to the respective source engine files and node it all out in your choice TUI 🤖***
+**Navigate to the respective source engine files and node it all out in the TUI 🤖**
+***Otherwise, if you must --***
+```Shell
+npm run dev
+```
