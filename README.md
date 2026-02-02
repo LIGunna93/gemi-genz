@@ -33,16 +33,19 @@ This project utilizes a **Service-Oriented Architecture** to decouple AI logic f
 - Prompt ready!
 
 ### 2. Installation
-You can just open up your choice terminal and navigate to the parent directory to which you intend to clone/import the project folder.
+You can simply open up your choice terminal and navigate to the parent directory to which you intend to clone/import the project folder.
+
 ```bash
 C://cd abc/xyz/parent_folder
 ```
 Start by cloning the project to your remote directory using -
+
 ```bash
 git clone https://github.com/LIGunna93/gemi-genz.git your-repo-name
 ```
 ***Inclusion of 'your-repo-name' optional; if not defined(empty), it defaults the project_folder/app name to the clone's repo name - gemi-genz***
 ### { your-repo-name?
+
 ```bash
 cd your-repo-name  :  cd gemi-genz
 ```
@@ -51,9 +54,18 @@ Once in the root directory, re-initialize the packaging dependencies for the loc
 npm install
 ```
 
-### 3. Choose your destiny!
+### 3. Configure the necessary environment variables -
 
-## Clients-
+Using an IDE or any other capable editor, navigate to and open the .env file that is located in the root directory (it's a hidden file incase you John Cena it). Enter the respective required or optional parameters. For starters, all you really need is that Google AI API Key and the rest can carry you through the initial runs.
+```
+# Enter your personal API Key from Google AI Studio
+
+GEMINI_API_KEY=xxxxxxzzzzzzzyyyyyyy
+```
+
+### 4. Choose your destiny!
+
+**Clients -**
 
 ***Navigate your active terminal directory to the root of the gemi-genz (or YOUR_REPO_NAME) clone project folder.***
 **Type:** 
@@ -62,7 +74,7 @@ npm start
 ```
 ***Follow the server start instructions to find the address to route to access the app***
 
-## Devs-
+**Devs -**
 
 **Navigate to the respective source engine files and node it all out in the TUI 🤖**
 ***Otherwise, if you must --***
